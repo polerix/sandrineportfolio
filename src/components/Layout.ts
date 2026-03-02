@@ -8,10 +8,10 @@ export const Layout = (content: string) => `
         </a>
         
         <nav class="hidden md:flex items-center gap-8 text-sm font-medium tracking-wide">
-          <a href="/" class="hover:text-rose-600 transition-colors uppercase">Home</a>
-          <a href="/illustration" class="hover:text-rose-600 transition-colors uppercase">Illustration</a>
-          <a href="/graphic-design" class="hover:text-rose-600 transition-colors uppercase">Graphic Design</a>
-          <a href="/other" class="hover:text-rose-600 transition-colors uppercase">Other Work</a>
+          <a href="#/" class="hover:text-rose-600 transition-colors uppercase">Home</a>
+          <a href="#/illustration" class="hover:text-rose-600 transition-colors uppercase">Illustration</a>
+          <a href="#/graphic-design" class="hover:text-rose-600 transition-colors uppercase">Graphic Design</a>
+          <a href="#/other" class="hover:text-rose-600 transition-colors uppercase">Other Work</a>
         </nav>
         
         <!-- Mobile menu button -->
@@ -22,10 +22,10 @@ export const Layout = (content: string) => `
       
       <!-- Mobile Navigation -->
       <div id="mobile-menu" class="md:hidden hidden bg-[#fcf8f2] border-b border-stone-200/50 px-6 py-4 space-y-4 shadow-lg absolute w-full">
-        <a href="/" class="block text-lg font-medium hover:text-rose-600 transition-colors uppercase">Home</a>
-        <a href="/illustration" class="block text-lg font-medium hover:text-rose-600 transition-colors uppercase">Illustration</a>
-        <a href="/graphic-design" class="block text-lg font-medium hover:text-rose-600 transition-colors uppercase">Graphic Design</a>
-        <a href="/other" class="block text-lg font-medium hover:text-rose-600 transition-colors uppercase">Other Work</a>
+        <a href="#/" class="block text-lg font-medium hover:text-rose-600 transition-colors uppercase">Home</a>
+        <a href="#/illustration" class="block text-lg font-medium hover:text-rose-600 transition-colors uppercase">Illustration</a>
+        <a href="#/graphic-design" class="block text-lg font-medium hover:text-rose-600 transition-colors uppercase">Graphic Design</a>
+        <a href="#/other" class="block text-lg font-medium hover:text-rose-600 transition-colors uppercase">Other Work</a>
       </div>
     </header>
 
@@ -57,23 +57,23 @@ export const Layout = (content: string) => `
 
 // Helper to initialize interactive layout elements
 export const initLayout = () => {
-    const mobileBtn = document.getElementById('mobile-menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
+  const mobileBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
 
-    if (mobileBtn && mobileMenu) {
-        mobileBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-    }
-
-    // Active link highlighting
-    const currentPath = window.location.pathname;
-    const navLinks = document.querySelectorAll('nav a, #mobile-menu a');
-
-    navLinks.forEach(link => {
-        if (link.getAttribute('href') === currentPath || (currentPath === '/' && link.getAttribute('href') === '/')) {
-            link.classList.add('text-rose-600', 'font-bold');
-            link.classList.remove('font-medium');
-        }
+  if (mobileBtn && mobileMenu) {
+    mobileBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
     });
+  }
+
+  // Active link highlighting
+  const currentHash = window.location.hash || '#/';
+  const navLinks = document.querySelectorAll('nav a, #mobile-menu a');
+
+  navLinks.forEach(link => {
+    if (link.getAttribute('href') === currentHash) {
+      link.classList.add('text-rose-600', 'font-bold');
+      link.classList.remove('font-medium');
+    }
+  });
 };

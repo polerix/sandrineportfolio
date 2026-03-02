@@ -7,7 +7,9 @@ import './index.css';
 
 // Simple Router
 const router = async () => {
-    const path = window.location.pathname;
+    // Default to home if no hash or just '#'
+    const hash = window.location.hash || '#/';
+    const path = hash.replace('#', '');
     const app = document.querySelector<HTMLDivElement>('#app');
 
     if (!app) return;
@@ -67,24 +69,18 @@ const router = async () => {
         app.classList.add('opacity-100');
     });
 
-    // Handle SPA navigation links
-    document.querySelectorAll('a[href^="/"]').forEach(link => {
-        // Only hijack internal links, not mailto or external
-        if (link.getAttribute('href')?.startsWith('/') && !link.getAttribute('target')) {
-            link.addEventListener('click', e => {
-                e.preventDefault();
-                const href = (e.currentTarget as HTMLAnchorElement).getAttribute('href');
-                if (href) {
-                    window.history.pushState(null, '', href);
-                    router();
-                }
-            });
-        }
-    });
+    // We don't need to hijack links anymore since hash changes automatically trigger window 'hashchange' events
 };
 
-// Listen for back/forward browser navigation
-window.addEventListener('popstate', router);
+// Listen for browser navigation (hash changes)
+window.addEventListener('hashchange', router);
 
 // Wait for DOM
-document.addEventListener('DOMContentLoaded', router);
+document.addEventListener('DOMContentLoaded', () => {
+    // If we land on the root without a hash, redirect to #/
+    if (!window.location.hash || window.location.hash === '#') {
+        window.location.hash = '#/';
+    } else {
+        router();
+    }
+});
