@@ -3,7 +3,7 @@ export const Layout = (content: string) => `
     <!-- Header/Navigation -->
     <header class="sticky top-0 z-50 w-full backdrop-blur-md bg-[#fcf8f2]/80 border-b border-stone-200/50">
       <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <a href="/" class="text-2xl font-bold tracking-tighter hover:text-rose-600 transition-colors duration-300">
+        <a href="#/" class="text-2xl font-bold tracking-tighter hover:text-rose-600 transition-colors duration-300">
           Sandrine Lagacé
         </a>
         
@@ -15,7 +15,7 @@ export const Layout = (content: string) => `
         </nav>
         
         <!-- Mobile menu button -->
-        <button id="mobile-menu-btn" class="md:hidden p-2 text-stone-600 hover:text-stone-900 transition-colors">
+        <button id="mobile-menu-btn" class="md:hidden p-2 text-stone-600 hover:text-stone-900 transition-colors" aria-label="Open navigation menu" aria-expanded="false">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
         </button>
       </div>
@@ -62,7 +62,17 @@ export const initLayout = () => {
 
   if (mobileBtn && mobileMenu) {
     mobileBtn.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
+      const isHidden = mobileMenu.classList.toggle('hidden');
+      mobileBtn.setAttribute('aria-expanded', String(!isHidden));
+    });
+
+    // Close mobile menu when a link is clicked
+    const mobileLinks = mobileMenu.querySelectorAll('a');
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        mobileBtn.setAttribute('aria-expanded', 'false');
+      });
     });
   }
 
@@ -74,6 +84,9 @@ export const initLayout = () => {
     if (link.getAttribute('href') === currentHash) {
       link.classList.add('text-rose-600', 'font-bold');
       link.classList.remove('font-medium');
+    } else {
+      link.classList.remove('text-rose-600', 'font-bold');
+      link.classList.add('font-medium');
     }
   });
 };

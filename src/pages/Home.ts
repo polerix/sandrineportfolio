@@ -73,22 +73,22 @@ export const HomePage = () => `
         <div id="photo-pile" class="relative group w-full max-w-sm aspect-[4/5] cursor-pointer
           [&>div]:absolute [&>div]:inset-0 [&>div]:bg-[#fcf8f2] [&>div]:rounded-2xl [&>div]:p-4 [&>div]:shadow-xl [&>div]:border [&>div]:border-stone-200 [&>div]:transition-all [&>div]:duration-500
           
-          [&>div:nth-child(1)]:z-10 [&>div:nth-child(1)]:-rotate-6 [&>div:nth-child(1)]:origin-bottom-left [&>div:nth-child(1)]:scale-95
+          [&>div[data-layer='1']]:z-10 [&>div[data-layer='1']]:-rotate-6 [&>div[data-layer='1']]:origin-bottom-left [&>div[data-layer='1']]:scale-95
           
-          [&>div:nth-child(2)]:z-20 [&>div:nth-child(2)]:rotate-3 [&>div:nth-child(2)]:origin-bottom [&>div:nth-child(2)]:scale-100
+          [&>div[data-layer='2']]:z-20 [&>div[data-layer='2']]:rotate-3 [&>div[data-layer='2']]:origin-bottom [&>div[data-layer='2']]:scale-100
           
-          [&>div:nth-child(3)]:z-30 [&>div:nth-child(3)]:-rotate-3 [&>div:nth-child(3)]:origin-bottom-right [&>div:nth-child(3)]:scale-105 hover:[&>div:nth-child(3)]:-translate-y-4 hover:[&>div:nth-child(3)]:rotate-0
+          [&>div[data-layer='3']]:z-30 [&>div[data-layer='3']]:-rotate-3 [&>div[data-layer='3']]:origin-bottom-right [&>div[data-layer='3']]:scale-105 hover:[&>div[data-layer='3']]:-translate-y-4 hover:[&>div[data-layer='3']]:rotate-0
         ">
-          <!-- Photo 3 (Bottom) -->
-          <div class="photo-card">
+          <!-- Photo 3 (Initially bottom) -->
+          <div class="photo-card" data-layer="1">
                <img src="/images/slbebe.png" alt="Sandrine Baby" class="w-full h-full object-cover rounded-lg bg-stone-100" />
           </div>
-          <!-- Photo 2 (Middle) -->
-          <div class="photo-card">
+          <!-- Photo 2 (Initially middle) -->
+          <div class="photo-card" data-layer="2">
                <img src="/images/slgrad.png" alt="Sandrine Graduation" class="w-full h-full object-cover rounded-lg bg-stone-100" />
           </div>
-          <!-- Photo 1 (Top) -->
-          <div class="photo-card">
+          <!-- Photo 1 (Initially top) -->
+          <div class="photo-card" data-layer="3">
                <img src="/images/slphoto.png" alt="Sandrine Photo" class="w-full h-full object-cover rounded-lg bg-stone-100" />
           </div>
         </div>
@@ -102,11 +102,15 @@ export const initHome = () => {
   const pile = document.getElementById('photo-pile');
   if (pile) {
     pile.addEventListener('click', () => {
-      // Move the top card (last child) to the bottom (first child)
-      if (pile.lastElementChild) {
-        pile.prepend(pile.lastElementChild);
-      }
+      const cards = Array.from(pile.querySelectorAll('.photo-card')) as HTMLElement[];
+      
+      // Rotate layers: 3 -> 2, 2 -> 1, 1 -> 3
+      cards.forEach(card => {
+        const currentLayer = parseInt(card.getAttribute('data-layer') || '1');
+        let nextLayer = currentLayer - 1;
+        if (nextLayer < 1) nextLayer = 3;
+        card.setAttribute('data-layer', nextLayer.toString());
+      });
     });
   }
 };
-

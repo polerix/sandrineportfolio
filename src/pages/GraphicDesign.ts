@@ -2,7 +2,7 @@ export const GraphicDesignPage = async () => `
   <div class="space-y-12">
     <div class="max-w-3xl mx-auto text-center space-y-6">
       <h1 class="text-4xl md:text-5xl font-black tracking-tighter uppercase text-stone-900">
-        Graphic Design Works
+        Design Stuff
       </h1>
       <div class="w-24 h-1 bg-rose-500 mx-auto"></div>
       <p class="text-xl text-stone-600 leading-relaxed font-medium">
