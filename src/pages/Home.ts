@@ -5,24 +5,24 @@ export const HomePage = () => `
         Hi, I'm <span class="text-rose-600 block mt-2">Sandrine.</span>
       </h1>
       <p class="text-2xl text-stone-600 font-medium tracking-wide">
-        Illustrator and Graphic Designer based in Moncton, NB.
+        illustrator and graphic designer
       </p>
       
       <div class="pt-8 space-y-8">
         <div>
-          <h2 class="text-xl font-bold uppercase tracking-widest text-stone-900 border-b-2 border-rose-200 pb-2 mb-4 inline-block">About Me</h2>
+          <h2 class="text-xl font-bold uppercase tracking-widest text-stone-900 border-b-2 border-rose-200 pb-2 mb-4 inline-block lowercase">a bit about me ✨</h2>
           <ul class="space-y-3 text-stone-600 text-lg">
             <li class="flex items-start gap-2">
               <span class="text-rose-500 font-bold">✧</span> 
-              Acadien
+              acadien
             </li>
             <li class="flex items-start gap-2">
               <span class="text-rose-500 font-bold">✧</span> 
-              Woman (she/her and they/them pronouns)
+              woman (uses she/her and they/them pronouns)
             </li>
             <li class="flex items-start gap-2">
               <span class="text-rose-500 font-bold">✧</span> 
-              Born and raised in Moncton, New Brunswick
+              born and raised in moncton, new brunswick
             </li>
             <li class="flex items-start gap-2">
               <span class="text-rose-500 font-bold">✧</span> 
@@ -30,37 +30,37 @@ export const HomePage = () => `
             </li>
             <li class="flex items-start gap-2">
               <span class="text-rose-500 font-bold">✧</span> 
-              Very nerdy
+              very nerdy
             </li>
             <li class="flex items-start gap-2">
               <span class="text-rose-500 font-bold">✧</span> 
-              Cat and dog lover
+              cat and dog lover
             </li>
           </ul>
         </div>
         
         <div>
-          <h2 class="text-xl font-bold uppercase tracking-widest text-stone-900 border-b-2 border-rose-200 pb-2 mb-4 inline-block">Education</h2>
+          <h2 class="text-xl font-bold uppercase tracking-widest text-stone-900 border-b-2 border-rose-200 pb-2 mb-4 inline-block lowercase">education</h2>
           <div class="space-y-6 text-stone-600">
             <div class="relative pl-6 border-l-2 border-stone-200">
               <div class="absolute w-3 h-3 bg-rose-400 rounded-full -left-[7px] top-1.5 ring-4 ring-[#fcf8f2]"></div>
               <p class="font-bold text-stone-900">2023</p>
-              <p>High school grad</p>
+              <p>high school grad</p>
             </div>
             <div class="relative pl-6 border-l-2 border-stone-200">
               <div class="absolute w-3 h-3 bg-rose-400 rounded-full -left-[7px] top-1.5 ring-4 ring-[#fcf8f2]"></div>
               <p class="font-bold text-stone-900">2024</p>
-              <p>Completed the Foundation Visual Arts program at New Brunswick College of Craft and Design</p>
+              <p>completed the foundation visual arts program at New Brunswick College of Craft and Design</p>
             </div>
             <div class="relative pl-6 border-l-2 border-stone-200">
               <div class="absolute w-3 h-3 bg-rose-400 rounded-full -left-[7px] top-1.5 ring-4 ring-[#fcf8f2]"></div>
               <p class="font-bold text-stone-900">2024 - 2026</p>
-              <p>Second year in Graphic Design at the New Brunswick College of Craft and Design</p>
+              <p>second year in graphic design at the New Brunswick College of Craft and Design</p>
             </div>
             <div class="relative pl-6 border-l-2 border-transparent">
               <div class="absolute w-3 h-3 bg-stone-300 rounded-full -left-[7px] top-1.5 ring-4 ring-[#fcf8f2]"></div>
-              <p class="font-bold text-stone-900">2026 - 2028 (Planned)</p>
-              <p>Currently working on application to study at the University of New Brunswick to complete a Bachelor of Applied Arts</p>
+              <p class="font-bold text-stone-900 lowercase">what comes next?</p>
+              <p>i am currently working on my application to study at the University of New Brunswick to complete a bachelor of applied arts that would be done in 2028</p>
             </div>
           </div>
         </div>

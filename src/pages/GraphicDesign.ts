@@ -1,15 +1,15 @@
 export const GraphicDesignPage = async () => `
   <div class="space-y-12">
     <div class="max-w-3xl mx-auto text-center space-y-6">
-      <h1 class="text-4xl md:text-5xl font-black tracking-tighter uppercase text-stone-900">
-        Design Stuff
+      <h1 class="text-4xl md:text-5xl font-black tracking-tighter uppercase text-stone-900 lowercase">
+        design stuff
       </h1>
       <div class="w-24 h-1 bg-rose-500 mx-auto"></div>
       <p class="text-xl text-stone-600 leading-relaxed font-medium">
-        This is my graphic design work such as page layout, logos and typography.
+        this is my graphic design work such as page layout, logos and typography.
       </p>
       <p class="text-lg text-stone-600 leading-relaxed">
-        I use mainly <span class="font-bold text-stone-800 bg-rose-100 px-1">InDesign</span>, <span class="font-bold text-stone-800 bg-rose-100 px-1">Illustrator</span>, and <span class="font-bold text-stone-800 bg-rose-100 px-1">Photoshop</span> to bring concepts to life. From book covers and movie posters to typography and brochures, my focus is on clear communication and aesthetic layouts.
+        i use maineley <span class="font-bold text-stone-800 bg-rose-100 px-1">indesign</span>, <span class="font-bold text-stone-800 bg-rose-100 px-1">illustrator</span>, and <span class="font-bold text-stone-800 bg-rose-100 px-1">photoshop</span> to bring concepts to life.
       </p>
     </div>
 

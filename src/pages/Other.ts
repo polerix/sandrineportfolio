@@ -1,15 +1,15 @@
 export const OtherPage = async () => `
   <div class="space-y-12">
     <div class="max-w-3xl mx-auto text-center space-y-6">
-      <h1 class="text-4xl md:text-5xl font-black tracking-tighter uppercase text-stone-900">
-        Other Fun Stuff
+      <h1 class="text-4xl md:text-5xl font-black tracking-tighter uppercase text-stone-900 lowercase">
+        other fun stuff
       </h1>
       <div class="w-24 h-1 bg-rose-500 mx-auto"></div>
       <p class="text-xl text-stone-600 leading-relaxed font-medium">
-        There are other artistic mediums I enjoy outside of graphic design.
+        there are other artistic mediums i enjoy outside of graphic design.
       </p>
       <p class="text-lg text-stone-600 leading-relaxed">
-        I love to sew and I occasionally enjoy photography, mainly macro shots of plants.
+        i love to sew and i occasionally enjoy photography, mainly macro shots of plants.
       </p>
     </div>
 

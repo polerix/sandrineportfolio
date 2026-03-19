@@ -1,15 +1,15 @@
 export const IllustrationPage = async () => `
   <div class="space-y-12">
     <div class="max-w-3xl mx-auto text-center space-y-6">
-      <h1 class="text-4xl md:text-5xl font-black tracking-tighter uppercase text-stone-900">
-        Art Stuff
+      <h1 class="text-4xl md:text-5xl font-black tracking-tighter uppercase text-stone-900 lowercase">
+        art stuff
       </h1>
       <div class="w-24 h-1 bg-rose-500 mx-auto"></div>
       <p class="text-xl text-stone-600 leading-relaxed font-medium">
-        Here are some things I've drawn over the past few years!
+        here is my illustration work from the past few years!
       </p>
       <p class="text-lg text-stone-600 leading-relaxed">
-        Since starting college I've improved so fast and I've been able to try so many different styles and techniques. My favorite medium by far is digital art, I draw on <span class="font-bold text-stone-800 bg-rose-100 px-1">Procreate</span> using my iPad with Apple Pencil and on <span class="font-bold text-stone-800 bg-rose-100 px-1">Photoshop</span> using my Wacom tablet. I love mixing medias together and am open to any of these mediums: acrylic paint, ink, coloured pencils, pencil and fineliner pens.
+        Since starting college i've improved so fast and i've been able to try so many different styles and techniques. my favorite medium by far is digital art, i draw on <span class="font-bold text-stone-800 bg-rose-100 px-1">procreate</span> using my ipad with apple pencil and on <span class="font-bold text-stone-800 bg-rose-100 px-1">photoshop</span> using my wacom tablet. i love mixing medias together and am open to any of these mediums: acrylic paint, ink, coloured pencils, pencil and fineliner pens.
       </p>
     </div>
 
