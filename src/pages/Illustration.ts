@@ -123,10 +123,37 @@ export const IllustrationPage = async () => `
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Procreate</p>
         </div>
       </div>
+
+      <!-- Castle Crab -->
+      <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
+        <img src="/images/castlecrab.png" alt="Castle Crab" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
+          <h3 class="text-xl font-bold">Castle Crab</h3>
+          <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Procreate</p>
+        </div>
+      </div>
+
+      <!-- Smash TV -->
+      <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
+        <img src="/images/smashtv.png" alt="Smash TV" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
+          <h3 class="text-xl font-bold">Smash TV Fanart</h3>
+          <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Procreate</p>
+        </div>
+      </div>
+
+      <!-- Cat Island PS4 -->
+      <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
+        <img src="/images/catislandps4.png" alt="Cat Island PS4 Case" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
+          <h3 class="text-xl font-bold">Cat Island PS4 Case</h3>
+          <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Photoshop, Procreate</p>
+        </div>
+      </div>
       
       <!-- Outlines -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/animal_dog.png" alt="My dog outlined" onerror="this.src='/images/art_illustrations_5.png'" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="/images/karmaoutline.png" alt="Dog Outline" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Vector Outlines</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Illustrator</p>
