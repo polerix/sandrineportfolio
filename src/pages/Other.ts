@@ -19,7 +19,7 @@ export const OtherPage = async () => `
       <!-- Photography 1 -->
       <div class="group overflow-hidden rounded-2xl bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-stone-100 flex flex-col h-full">
         <div class="aspect-[4/3] w-full overflow-hidden bg-stone-100">
-          <img src="/images/plant_foliage_1.png" alt="Photography - Succulent" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+          <img src="./images/plant_foliage_1.png" alt="Photography - Succulent" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         </div>
         <div class="p-6 flex-1 bg-white relative z-10">
           <h3 class="text-xl font-bold text-stone-900 tracking-tight group-hover:text-rose-600 transition-colors">Succulent Macro</h3>
@@ -30,7 +30,7 @@ export const OtherPage = async () => `
       <!-- Sewing / Character -->
       <div class="group overflow-hidden rounded-2xl bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-stone-100 flex flex-col h-full">
         <div class="aspect-[4/3] w-full overflow-hidden bg-stone-100">
-          <img src="/images/elfsit.png" alt="Elf Character Design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+          <img src="./images/elfsit.png" alt="Elf Character Design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         </div>
         <div class="p-6 flex-1 bg-white relative z-10">
           <h3 class="text-xl font-bold text-stone-900 tracking-tight group-hover:text-rose-600 transition-colors">Character Sitting</h3>
@@ -41,7 +41,7 @@ export const OtherPage = async () => `
       <!-- Photography 2 -->
       <div class="group overflow-hidden rounded-2xl bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-stone-100 flex flex-col h-full">
         <div class="aspect-[4/3] w-full overflow-hidden bg-stone-100">
-          <img src="/images/plant_foliage_2.png" alt="Photography - Leaves" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+          <img src="./images/plant_foliage_2.png" alt="Photography - Leaves" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         </div>
         <div class="p-6 flex-1 bg-white relative z-10">
           <h3 class="text-xl font-bold text-stone-900 tracking-tight group-hover:text-rose-600 transition-colors">Plant Macro 2</h3>
@@ -52,7 +52,7 @@ export const OtherPage = async () => `
       <!-- Packaging / Craft -->
       <div class="group overflow-hidden rounded-2xl bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-stone-100 flex flex-col h-full">
         <div class="aspect-[4/3] w-full overflow-hidden bg-stone-100">
-          <img src="/images/earringbox.png" alt="Earring Box Mockup" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+          <img src="./images/earringbox.png" alt="Earring Box Mockup" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         </div>
         <div class="p-6 flex-1 bg-white relative z-10">
           <h3 class="text-xl font-bold text-stone-900 tracking-tight group-hover:text-rose-600 transition-colors">Earring Packaging</h3>

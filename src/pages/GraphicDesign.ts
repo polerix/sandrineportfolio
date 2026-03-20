@@ -19,7 +19,7 @@ export const GraphicDesignPage = async () => `
       <!-- The Secret Garden -->
       <div class="group overflow-hidden rounded-2xl bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-stone-100 flex flex-col h-full">
         <div class="aspect-[4/3] w-full overflow-hidden bg-stone-100">
-          <img src="/images/document_printed_page.png" alt="The Secret Garden" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+          <img src="./images/document_printed_page.png" alt="The Secret Garden" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         </div>
         <div class="p-8 flex-1 flex flex-col justify-between bg-white relative z-10 -mt-2">
           <div>
@@ -33,7 +33,7 @@ export const GraphicDesignPage = async () => `
       <!-- Earrings Packaging -->
       <div class="group overflow-hidden rounded-2xl bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-stone-100 flex flex-col h-full">
         <div class="aspect-[4/3] w-full overflow-hidden bg-stone-100">
-          <img src="/images/container_carton.png" alt="Earrings Packaging Design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+          <img src="./images/container_carton.png" alt="Earrings Packaging Design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         </div>
         <div class="p-8 flex-1 flex flex-col justify-between bg-white relative z-10 -mt-2">
           <div>
@@ -47,7 +47,7 @@ export const GraphicDesignPage = async () => `
       <!-- Brochures and Kits -->
       <div class="group overflow-hidden rounded-2xl bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-stone-100 flex flex-col h-full">
         <div class="aspect-[4/3] w-full overflow-hidden bg-stone-100">
-          <img src="/images/document_printed_page_1.png" alt="Brochure and Kit" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+          <img src="./images/document_printed_page_1.png" alt="Brochure and Kit" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         </div>
         <div class="p-8 flex-1 flex flex-col justify-between bg-white relative z-10 -mt-2">
           <div>
@@ -61,7 +61,7 @@ export const GraphicDesignPage = async () => `
       <!-- Posters & Album Covers -->
       <div class="group overflow-hidden rounded-2xl bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-stone-100 flex flex-col h-full">
         <div class="aspect-[4/3] w-full overflow-hidden bg-stone-100">
-          <img src="/images/structure_sign.png" alt="Album and Posters" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+          <img src="./images/structure_sign.png" alt="Album and Posters" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         </div>
         <div class="p-8 flex-1 flex flex-col justify-between bg-white relative z-10 -mt-2">
           <div>
@@ -75,7 +75,7 @@ export const GraphicDesignPage = async () => `
       <!-- Typography -->
       <div class="group overflow-hidden rounded-2xl bg-white shadow-sm hover:shadow-2xl transition-all duration-500 border border-stone-100 flex flex-col h-full md:col-span-2 md:flex-row">
         <div class="md:w-1/2 aspect-[4/3] md:aspect-auto h-full overflow-hidden bg-stone-100">
-          <img src="/images/document_printed_page_2.png" alt="Typography" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+          <img src="./images/document_printed_page_2.png" alt="Typography" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         </div>
         <div class="md:w-1/2 p-8 flex flex-col justify-center bg-white relative z-10">
           <div>
