@@ -18,7 +18,7 @@ export const IllustrationPage = async () => `
       
       <!-- Reading Infographic -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/illustration.png" alt="Reading Infographic" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/illustration.png" alt="Reading Infographic" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Reading Infographic</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Procreate, Photoshop, Illustrator</p>
@@ -27,7 +27,7 @@ export const IllustrationPage = async () => `
 
       <!-- Editorial Article -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/illustration_2.png" alt="Editorial Article" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/illustration_2.png" alt="Editorial Article" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Editorial Article</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Photoshop, Procreate</p>
@@ -36,7 +36,7 @@ export const IllustrationPage = async () => `
 
       <!-- Alien Girl -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/illustration_3.png" alt="Alien Girl" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/illustration_3.png" alt="Alien Girl" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Alien Girl</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Photoshop w/ tablet</p>
@@ -45,7 +45,7 @@ export const IllustrationPage = async () => `
 
       <!-- Cat Island Game Case -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/illustration_4.png" alt="Cat Island Game Case" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/illustration_4.png" alt="Cat Island Game Case" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Cat Island Game Case</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Procreate, Photoshop</p>
@@ -54,7 +54,7 @@ export const IllustrationPage = async () => `
       
       <!-- Character Board -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/illustration_5.png" alt="Character Board" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/illustration_5.png" alt="Character Board" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Character Board</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Procreate</p>
@@ -63,7 +63,7 @@ export const IllustrationPage = async () => `
 
       <!-- Motion Multi Pose -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/illustration_6.png" alt="Motion Multi Pose" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/illustration_6.png" alt="Motion Multi Pose" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Motion Multi Pose</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Procreate</p>
@@ -72,7 +72,7 @@ export const IllustrationPage = async () => `
 
       <!-- Portrait of my boyfriend -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/art_illustrations.png" alt="Portrait" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/art_illustrations.png" alt="Portrait" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Portrait</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Photoshop w/ tablet</p>
@@ -81,7 +81,7 @@ export const IllustrationPage = async () => `
 
       <!-- Zelda Triforce Triptic -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/art_illustrations_1.png" alt="Zelda Triforce Hands Triptic" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/art_illustrations_1.png" alt="Zelda Triforce Hands Triptic" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Zelda Triforce Hands Triptic</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">India ink, G-nib dip pen, watercolour paper</p>
@@ -90,7 +90,7 @@ export const IllustrationPage = async () => `
 
       <!-- Breakfast Style Study -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/art_illustrations_2.png" alt="Breakfast Style Study" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/art_illustrations_2.png" alt="Breakfast Style Study" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Breakfast Style Study</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Acrylic paint</p>
@@ -99,7 +99,7 @@ export const IllustrationPage = async () => `
       
       <!-- Stickers -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/art_illustrations_3.png" alt="Stickers" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/art_illustrations_3.png" alt="Stickers" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Various Stickers (Shark, Acorn)</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Procreate</p>
@@ -108,7 +108,7 @@ export const IllustrationPage = async () => `
 
       <!-- Monstera & Ivy -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/plant_foliage_3.png" alt="Leaf Study" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/plant_foliage_3.png" alt="Leaf Study" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Leaf Studies & Stickers</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Procreate</p>
@@ -117,7 +117,7 @@ export const IllustrationPage = async () => `
 
       <!-- Kitchen Isometric -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/art_illustrations_4.png" alt="Kitchen Isometric Room" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/art_illustrations_4.png" alt="Kitchen Isometric Room" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Kitchen Isometric Room</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Procreate</p>
@@ -126,7 +126,7 @@ export const IllustrationPage = async () => `
 
       <!-- Castle Crab -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/castlecrab.png" alt="Castle Crab" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/castlecrab.png" alt="Castle Crab" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Castle Crab</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Procreate</p>
@@ -135,7 +135,7 @@ export const IllustrationPage = async () => `
 
       <!-- Smash TV -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/smashtv.png" alt="Smash TV" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/smashtv.png" alt="Smash TV" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Smash TV Fanart</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Procreate</p>
@@ -144,7 +144,7 @@ export const IllustrationPage = async () => `
 
       <!-- Cat Island PS4 -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/catislandps4.png" alt="Cat Island PS4 Case" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/catislandps4.png" alt="Cat Island PS4 Case" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Cat Island PS4 Case</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Photoshop, Procreate</p>
@@ -153,7 +153,7 @@ export const IllustrationPage = async () => `
       
       <!-- Outlines -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/karmaoutline.png" alt="Dog Outline" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/karmaoutline.png" alt="Dog Outline" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Vector Outlines</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Illustrator</p>
@@ -162,7 +162,7 @@ export const IllustrationPage = async () => `
 
       <!-- Political Cartoon / T-Shirts -->
       <div class="break-inside-avoid relative group overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-stone-100">
-        <img src="/images/art_illustrations_6.png" alt="T-Shirt / Overconsumption" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
+        <img src="./images/art_illustrations_6.png" alt="T-Shirt / Overconsumption" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
         <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 translate-y-4 group-hover:translate-y-0 text-white">
           <h3 class="text-xl font-bold">Overconsumption / T-Shirt Designs</h3>
           <p class="text-sm text-rose-300 mt-1 uppercase tracking-wider font-semibold">Procreate</p>

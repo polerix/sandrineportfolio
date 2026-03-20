@@ -81,15 +81,15 @@ export const HomePage = () => `
         ">
           <!-- Photo 3 (Initially bottom) -->
           <div class="photo-card" data-layer="1">
-               <img src="/images/slbebe.png" alt="Sandrine Baby" class="w-full h-full object-cover rounded-lg bg-stone-100" />
+               <img src="./images/slbebe.png" alt="Sandrine Baby" class="w-full h-full object-cover rounded-lg bg-stone-100" />
           </div>
           <!-- Photo 2 (Initially middle) -->
           <div class="photo-card" data-layer="2">
-               <img src="/images/slgrad.png" alt="Sandrine Graduation" class="w-full h-full object-cover rounded-lg bg-stone-100" />
+               <img src="./images/slgrad.png" alt="Sandrine Graduation" class="w-full h-full object-cover rounded-lg bg-stone-100" />
           </div>
           <!-- Photo 1 (Initially top) -->
           <div class="photo-card" data-layer="3">
-               <img src="/images/slphoto.png" alt="Sandrine Photo" class="w-full h-full object-cover rounded-lg bg-stone-100" />
+               <img src="./images/slphoto.png" alt="Sandrine Photo" class="w-full h-full object-cover rounded-lg bg-stone-100" />
           </div>
         </div>
         <p class="text-stone-400 text-sm mt-12 animate-pulse font-medium tracking-wide uppercase">Click photos to cycle</p>
